@@ -149,12 +149,12 @@ img {
 
 .icon-mail {
     margin-right: 10px;
-    fill: var(--text-color);
+    fill: currentColor;
 }
 
 .icon-tel {
     margin-right: 10px;
-    fill: var(--text-color);
+    fill: currentColor;
 }
 
 .icon-mail:hover, .icon-mail:focus {
