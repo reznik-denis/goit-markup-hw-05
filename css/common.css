@@ -13,6 +13,7 @@
     --border-footer-solid: rgba(255, 255, 255, 0.1);
     --border-customers-color: #AFB1B8;
     --border-our-team-color: #EEEEEE;
+    --accent-color-portfolio: rgba(33, 150, 243, 0.9);
 }
 
 body {

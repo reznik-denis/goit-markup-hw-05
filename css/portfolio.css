@@ -43,6 +43,7 @@
 }
 
 .our-works .item {
+    position: relative;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -59,6 +60,17 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-bottom: 20px;
+}
+
+.img-our-team::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: var(--accent-color-portfolio);
 }
 
 .our-works .item:nth-child(3n) {
