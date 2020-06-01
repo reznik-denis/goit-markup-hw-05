@@ -146,6 +146,7 @@
 }
 
 .doing .item {
+    position: relative;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
 }
@@ -155,6 +156,10 @@
 }
 
 .working {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
     padding: 27px 0;
     margin-bottom: 0;
 
