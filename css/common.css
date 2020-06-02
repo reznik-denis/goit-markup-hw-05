@@ -72,11 +72,12 @@ img {
 .logo {
     margin-right: 85px;
 
-    color: var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+
+    color: var(--primary-text-color);
 }
 
 .site-nav {

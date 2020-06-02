@@ -3,6 +3,7 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url("../images/Header.jpg");
@@ -18,23 +19,24 @@
     padding-left: 262px;
     padding-right: 262px;
 
-    color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    color: var(--primary-white-color);
 }
 
 .hero .link.buttom {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     text-decoration: none;
     letter-spacing: 0.06em;
-    /* align-items: center; */
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 .buttom {
@@ -72,10 +74,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bacground-second-color);
-    border-radius: 4px;
     margin-bottom: 30px;
     height: 120px;
+
+    background-color: var(--bacground-second-color);
+    border-radius: 4px;
 }
 
 .icon-advantages {
@@ -163,9 +166,10 @@
     padding: 27px 0;
     margin-bottom: 0;
 
+    text-align: center;
+
     color: var(--primary-white-color);
     background-color: var(--bacground-three-color);
-    text-align: center;
 }
 
 .comand-text, .section-text {
@@ -219,9 +223,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--border-customers-color);
     width: 44px;
     height: 44px;
+
+    color: var(--border-customers-color);
     border-radius: 50%;
 }
 
