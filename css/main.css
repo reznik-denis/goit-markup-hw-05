@@ -259,6 +259,7 @@
     border: 1px solid var(--border-customers-color);
     border-radius: 4px;
     color: var(--border-customers-color);
+    cursor: pointer;
 }
 
 .customers .item:hover, .customers .item:focus {
