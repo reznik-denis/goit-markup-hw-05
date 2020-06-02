@@ -56,22 +56,26 @@
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
+.thumb {
+    position: relative;
+}
+
 .img-our-team {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-bottom: 20px;
 }
 
-.img-our-team::before {
+/* .thumb > .img-our-team::after {
     position: absolute;
-    content: " ";
-    width: 100%;
-    height: 100%;
-    top: 0;
+    content: "";
+    width: 100px;
+    height: 100px;
+    bottom: 0;
     left: 0;
 
     background-color: var(--accent-color-portfolio);
-}
+} */
 
 .our-works .item:nth-child(3n) {
     margin-right: 0;
@@ -110,9 +114,22 @@
 }
 
 .section-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 3;
+
     color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    background-color: var(--accent-color-portfolio);
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+}
+
+.section-description:hover. .section-description:focus {
+    opacity: 1;
 }
