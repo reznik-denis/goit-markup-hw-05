@@ -147,7 +147,8 @@ img {
 }
 
 .site-nav .contacts-main .link-contact {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 32px 0;
     margin-left: 10px;
 
@@ -167,11 +168,13 @@ img {
 }
 
 .icon-mail {
+    display: block;
     margin-right: 10px;
     fill: currentColor;
 }
 
 .icon-tel {
+    display: block;
     margin-right: 10px;
     fill: currentColor;
 }
