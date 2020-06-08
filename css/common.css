@@ -78,6 +78,8 @@ img {
     line-height: 31px;
 
     color: var(--primary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav {
@@ -103,6 +105,8 @@ img {
 
 .logo-accent {
     color: var(--accent-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-accent:hover, .logo-accent:focus {
@@ -114,6 +118,8 @@ img {
     padding: 32px 0px;
 
     color: var(--primary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .item:not(:last-child) {
@@ -140,6 +146,8 @@ img {
 
     border-radius: 2px;
     background-color: var(--accent-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link.current:hover, .site-nav .link.current:focus {
@@ -153,6 +161,8 @@ img {
     margin-left: 10px;
 
     color: var(--text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-contacts {
@@ -171,12 +181,16 @@ img {
     display: block;
     margin-right: 10px;
     fill: currentColor;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-tel {
     display: block;
     margin-right: 10px;
     fill: currentColor;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-mail:hover, .icon-mail:focus {
@@ -197,10 +211,14 @@ img {
     line-height: 26px;
 
     color: var(--primary-white-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo-accent {
     color: var(--accent-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo-accent:hover, .footer-logo-accent:focus {
@@ -238,6 +256,8 @@ img {
 
     color: var(--footer-three-text-color);
     background-color: var(--footer-bacground-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link .footer-link-contact:hover, .footer-link .footer-link-contact:focus {
@@ -279,6 +299,8 @@ img {
 
     background-color: var(--border-footer-solid);
     border-radius: 22px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social > .social-footer-link:hover, .footer-social > .social-footer-link:focus {
